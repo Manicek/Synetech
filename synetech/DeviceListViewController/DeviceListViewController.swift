@@ -1,12 +1,12 @@
 //
-// ViewController.swift
+// DeviceListViewController.swift
 //
 // Created by Patrik Hora
 
 
 import UIKit
 
-class ViewController: UIViewController {
+class DeviceListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
