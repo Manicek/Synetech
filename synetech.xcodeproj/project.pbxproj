@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFE9EBDA27DCD86D00870BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9EBD927DCD86D00870BBA /* AppDelegate.swift */; };
-		FFE9EBDC27DCD86D00870BBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9EBDB27DCD86D00870BBA /* SceneDelegate.swift */; };
-		FFE9EBDE27DCD86D00870BBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9EBDD27DCD86D00870BBA /* ViewController.swift */; };
-		FFE9EBE127DCD86D00870BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE9EBDF27DCD86D00870BBA /* Main.storyboard */; };
-		FFE9EBE327DCD86D00870BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE9EBE227DCD86D00870BBA /* Assets.xcassets */; };
-		FFE9EBE627DCD86D00870BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE9EBE427DCD86D00870BBA /* LaunchScreen.storyboard */; };
+		FF3D708A27E0A242009DA80A /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D708927E0A242009DA80A /* Device.swift */; };
+		FF3D709B27E0A342009DA80A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D709927E0A342009DA80A /* UIView+Extension.swift */; };
+		FF3D709C27E0A342009DA80A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D709A27E0A342009DA80A /* UIImage+Extension.swift */; };
+		FF3D70A227E0A389009DA80A /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70A127E0A389009DA80A /* Asset.swift */; };
+		FF3D70A427E0A3A5009DA80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3D70A327E0A3A5009DA80A /* Assets.xcassets */; };
+		FF3D70AA27E0A400009DA80A /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70A627E0A400009DA80A /* DeviceListViewController.swift */; };
+		FF3D70AB27E0A400009DA80A /* DeviceListTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70A727E0A400009DA80A /* DeviceListTableViewManager.swift */; };
+		FF3D70AC27E0A400009DA80A /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70A827E0A400009DA80A /* DeviceListView.swift */; };
+		FF3D70AD27E0A400009DA80A /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70A927E0A400009DA80A /* DeviceTableViewCell.swift */; };
+		FF3D70B127E0A45F009DA80A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70AF27E0A45F009DA80A /* SceneDelegate.swift */; };
+		FF3D70B227E0A45F009DA80A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70B027E0A45F009DA80A /* AppDelegate.swift */; };
+		FF3D70B727E0A47A009DA80A /* DownloadDeviceListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70B427E0A47A009DA80A /* DownloadDeviceListService.swift */; };
+		FF3D70B827E0A47A009DA80A /* SaveDeviceListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70B527E0A47A009DA80A /* SaveDeviceListService.swift */; };
+		FF3D70B927E0A47A009DA80A /* GetPreviousDeviceListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70B627E0A47A009DA80A /* GetPreviousDeviceListService.swift */; };
+		FF3D70BB27E0A528009DA80A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D70BA27E0A528009DA80A /* AppConstants.swift */; };
+		FF3D70C027E0A577009DA80A /* SnapKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3D70BF27E0A577009DA80A /* SnapKit.xcframework */; };
+		FF3D70C127E0A577009DA80A /* SnapKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF3D70BF27E0A577009DA80A /* SnapKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FF3D70C227E0A577009DA80A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF3D70C127E0A577009DA80A /* SnapKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FF3D708927E0A242009DA80A /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		FF3D709927E0A342009DA80A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FF3D709A27E0A342009DA80A /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		FF3D70A127E0A389009DA80A /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		FF3D70A327E0A3A5009DA80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3D70A627E0A400009DA80A /* DeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		FF3D70A727E0A400009DA80A /* DeviceListTableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListTableViewManager.swift; sourceTree = "<group>"; };
+		FF3D70A827E0A400009DA80A /* DeviceListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		FF3D70A927E0A400009DA80A /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		FF3D70AF27E0A45F009DA80A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF3D70B027E0A45F009DA80A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3D70B427E0A47A009DA80A /* DownloadDeviceListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadDeviceListService.swift; sourceTree = "<group>"; };
+		FF3D70B527E0A47A009DA80A /* SaveDeviceListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveDeviceListService.swift; sourceTree = "<group>"; };
+		FF3D70B627E0A47A009DA80A /* GetPreviousDeviceListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPreviousDeviceListService.swift; sourceTree = "<group>"; };
+		FF3D70BA27E0A528009DA80A /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		FF3D70BC27E0A52F009DA80A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3D70BF27E0A577009DA80A /* SnapKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SnapKit.xcframework; path = Carthage/Build/SnapKit.xcframework; sourceTree = "<group>"; };
 		FFE9EBD627DCD86D00870BBA /* synetech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synetech.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE9EBD927DCD86D00870BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFE9EBDB27DCD86D00870BBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFE9EBDD27DCD86D00870BBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFE9EBE027DCD86D00870BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFE9EBE227DCD86D00870BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFE9EBE527DCD86D00870BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FFE9EBE727DCD86D00870BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3D70C027E0A577009DA80A /* SnapKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF3D708F27E0A295009DA80A /* synetech */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70BC27E0A52F009DA80A /* Info.plist */,
+				FF3D70BA27E0A528009DA80A /* AppConstants.swift */,
+				FF3D70B327E0A463009DA80A /* Services */,
+				FF3D70AE27E0A444009DA80A /* MainDelegates */,
+				FF3D70A527E0A3D3009DA80A /* DeviceListViewController */,
+				FF3D70A027E0A381009DA80A /* Assets */,
+				FF3D709827E0A331009DA80A /* Extensions */,
+			);
+			name = synetech;
+			sourceTree = "<group>";
+		};
+		FF3D709827E0A331009DA80A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D709A27E0A342009DA80A /* UIImage+Extension.swift */,
+				FF3D709927E0A342009DA80A /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF3D70A027E0A381009DA80A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70A327E0A3A5009DA80A /* Assets.xcassets */,
+				FF3D70A127E0A389009DA80A /* Asset.swift */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		FF3D70A527E0A3D3009DA80A /* DeviceListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70A727E0A400009DA80A /* DeviceListTableViewManager.swift */,
+				FF3D70A827E0A400009DA80A /* DeviceListView.swift */,
+				FF3D70A627E0A400009DA80A /* DeviceListViewController.swift */,
+				FF3D70A927E0A400009DA80A /* DeviceTableViewCell.swift */,
+			);
+			path = DeviceListViewController;
+			sourceTree = "<group>";
+		};
+		FF3D70AE27E0A444009DA80A /* MainDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70B027E0A45F009DA80A /* AppDelegate.swift */,
+				FF3D70AF27E0A45F009DA80A /* SceneDelegate.swift */,
+			);
+			path = MainDelegates;
+			sourceTree = "<group>";
+		};
+		FF3D70B327E0A463009DA80A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70B427E0A47A009DA80A /* DownloadDeviceListService.swift */,
+				FF3D70B627E0A47A009DA80A /* GetPreviousDeviceListService.swift */,
+				FF3D70B527E0A47A009DA80A /* SaveDeviceListService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF3D70BE27E0A577009DA80A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D70BF27E0A577009DA80A /* SnapKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFE9EBCD27DCD86D00870BBA = {
 			isa = PBXGroup;
 			children = (
-				FFE9EBD827DCD86D00870BBA /* synetech */,
+				FF3D708927E0A242009DA80A /* Device.swift */,
+				FF3D708F27E0A295009DA80A /* synetech */,
 				FFE9EBD727DCD86D00870BBA /* Products */,
+				FF3D70BE27E0A577009DA80A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,20 +159,6 @@
 				FFE9EBD627DCD86D00870BBA /* synetech.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FFE9EBD827DCD86D00870BBA /* synetech */ = {
-			isa = PBXGroup;
-			children = (
-				FFE9EBD927DCD86D00870BBA /* AppDelegate.swift */,
-				FFE9EBDB27DCD86D00870BBA /* SceneDelegate.swift */,
-				FFE9EBDD27DCD86D00870BBA /* ViewController.swift */,
-				FFE9EBDF27DCD86D00870BBA /* Main.storyboard */,
-				FFE9EBE227DCD86D00870BBA /* Assets.xcassets */,
-				FFE9EBE427DCD86D00870BBA /* LaunchScreen.storyboard */,
-				FFE9EBE727DCD86D00870BBA /* Info.plist */,
-			);
-			path = synetech;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +171,7 @@
 				FFE9EBD227DCD86D00870BBA /* Sources */,
 				FFE9EBD327DCD86D00870BBA /* Frameworks */,
 				FFE9EBD427DCD86D00870BBA /* Resources */,
+				FF3D70C227E0A577009DA80A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +194,7 @@
 				TargetAttributes = {
 					FFE9EBD527DCD86D00870BBA = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -125,9 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE9EBE627DCD86D00870BBA /* LaunchScreen.storyboard in Resources */,
-				FFE9EBE327DCD86D00870BBA /* Assets.xcassets in Resources */,
-				FFE9EBE127DCD86D00870BBA /* Main.storyboard in Resources */,
+				FF3D70A427E0A3A5009DA80A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +232,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFE9EBDE27DCD86D00870BBA /* ViewController.swift in Sources */,
-				FFE9EBDA27DCD86D00870BBA /* AppDelegate.swift in Sources */,
-				FFE9EBDC27DCD86D00870BBA /* SceneDelegate.swift in Sources */,
+				FF3D70B227E0A45F009DA80A /* AppDelegate.swift in Sources */,
+				FF3D70B827E0A47A009DA80A /* SaveDeviceListService.swift in Sources */,
+				FF3D70AB27E0A400009DA80A /* DeviceListTableViewManager.swift in Sources */,
+				FF3D708A27E0A242009DA80A /* Device.swift in Sources */,
+				FF3D709C27E0A342009DA80A /* UIImage+Extension.swift in Sources */,
+				FF3D70AA27E0A400009DA80A /* DeviceListViewController.swift in Sources */,
+				FF3D70AD27E0A400009DA80A /* DeviceTableViewCell.swift in Sources */,
+				FF3D70B927E0A47A009DA80A /* GetPreviousDeviceListService.swift in Sources */,
+				FF3D70B127E0A45F009DA80A /* SceneDelegate.swift in Sources */,
+				FF3D70B727E0A47A009DA80A /* DownloadDeviceListService.swift in Sources */,
+				FF3D70A227E0A389009DA80A /* Asset.swift in Sources */,
+				FF3D70BB27E0A528009DA80A /* AppConstants.swift in Sources */,
+				FF3D709B27E0A342009DA80A /* UIView+Extension.swift in Sources */,
+				FF3D70AC27E0A400009DA80A /* DeviceListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FFE9EBDF27DCD86D00870BBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFE9EBE027DCD86D00870BBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFE9EBE427DCD86D00870BBA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFE9EBE527DCD86D00870BBA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FFE9EBE827DCD86D00870BBA /* Debug */ = {
@@ -287,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 692WP484NX;
@@ -305,6 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cz.patrikhora.synetech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 692WP484NX;
